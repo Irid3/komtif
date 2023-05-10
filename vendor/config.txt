@@ -1,0 +1,3754 @@
+proxies:
+
+- name: ikd prem 104.18.19.242
+  type: trojan
+  server: 104.18.19.242
+  port: 443
+  password: 'sin123er'
+  udp: true
+  sni: ikd-id03.iptr.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan-ws"
+
+- name: mainssh globalssh 104.18.19.242
+  server: 104.18.19.242
+  port: 443
+  type: trojan
+  password: 'mainssh-kopsurat'
+  skip-cert-verify: true
+  sni: sgtws.mainssh.xyz
+  network: ws
+  udp: true
+  ws-opts:
+    path: /trojan
+- name: howdy hz globalssh 104.18.19.242
+  server: 104.18.19.242
+  port: 443
+  type: trojan
+  password: 'b197e250-d1db-11ed-819b-1239d0255272'
+  skip-cert-verify: true
+  sni: id-1.test3.net
+  network: ws
+  udp: true
+  ws-opts:
+    path: /howdy
+- name: mainssh sg2 104.18.19.242
+  server: 104.18.19.242
+  port: 443
+  type: trojan
+  password: 'mainssh-sin123er'
+  skip-cert-verify: true
+  sni: sg2tws.mainssh.xyz
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan
+- name: ctb 2 globalssh 104.18.19.242
+  server: 104.18.19.242
+  port: 443
+  udp: true
+  type: trojan
+  password: '123456'
+  skip-cert-verify: true
+  sni: trojan-ctb-sg02.globalssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-ws  
+- name: ctb 3 globalssh 104.18.19.242
+  server: 104.18.19.242
+  port: 443
+  udp: true
+  type: trojan
+  password: '8d32aea0-d1dc-11ed-b3a5-1239d0255272'
+  skip-cert-verify: true
+  sni: sg-2.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+- name: ikd prem 104.18.11.8
+  type: trojan
+  server: 104.18.11.8
+  port: 443
+  password: 'sin123er'
+  udp: true
+  sni: ikd-id03.iptr.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan-ws"
+
+- name: mainssh globalssh 104.18.11.8
+  server: 104.18.11.8
+  port: 443
+  type: trojan
+  password: 'mainssh-kopsurat'
+  skip-cert-verify: true
+  sni: sgtws.mainssh.xyz
+  network: ws
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+- name: howdy hz globalssh 104.18.11.8
+  server: 104.18.11.8
+  port: 443
+  type: trojan
+  password: 'b197e250-d1db-11ed-819b-1239d0255272'
+  skip-cert-verify: true
+  sni: id-1.test3.net
+  network: ws
+  udp: true
+  ws-opts:
+    path: /howdy
+- name: mainssh sg2 104.18.11.8
+  server: 104.18.11.8
+  port: 443
+  type: trojan
+  password: 'mainssh-sin123er'
+  skip-cert-verify: true
+  sni: sg2tws.mainssh.xyz
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan
+- name: ctb 2 globalssh 104.18.11.8
+  server: 104.18.11.8
+  port: 443
+  udp: true
+  type: trojan
+  password: '123456'
+  skip-cert-verify: true
+  sni: trojan-ctb-sg02.globalssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-ws  
+- name: ctb 3 globalssh 104.18.11.8
+  server: 104.18.11.8
+  port: 443
+  udp: true
+  type: trojan
+  password: '8d32aea0-d1dc-11ed-b3a5-1239d0255272'
+  skip-cert-verify: true
+  sni: sg-2.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+- name: ikd prem 104.18.12.78
+  type: trojan
+  server: 104.18.12.78
+  port: 443
+  password: 'sin123er'
+  udp: true
+  sni: ikd-id03.iptr.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan-ws"
+
+- name: mainssh globalssh 104.18.12.78
+  server: 104.18.12.78
+  port: 443
+  type: trojan
+  password: 'mainssh-kopsurat'
+  skip-cert-verify: true
+  sni: sgtws.mainssh.xyz
+  network: ws
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+- name: howdy hz globalssh 104.18.12.78
+  server: 104.18.12.78
+  port: 443
+  type: trojan
+  password: 'b197e250-d1db-11ed-819b-1239d0255272'
+  skip-cert-verify: true
+  sni: id-1.test3.net
+  network: ws
+  udp: true
+  ws-opts:
+    path: /howdy
+- name: mainssh sg2 104.18.12.78
+  server: 104.18.12.78
+  port: 443
+  type: trojan
+  password: 'mainssh-sin123er'
+  skip-cert-verify: true
+  sni: sg2tws.mainssh.xyz
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan
+- name: ctb 2 globalssh 104.18.12.78
+  server: 104.18.12.78
+  port: 443
+  udp: true
+  type: trojan
+  password: '123456'
+  skip-cert-verify: true
+  sni: trojan-ctb-sg02.globalssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-ws  
+- name: ctb 3 globalssh 104.18.12.78
+  server: 104.18.12.78
+  port: 443
+  udp: true
+  type: trojan
+  password: '8d32aea0-d1dc-11ed-b3a5-1239d0255272'
+  skip-cert-verify: true
+  sni: sg-2.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+- name: ikd prem 104.18.23.37
+  type: trojan
+  server: 104.18.23.37
+  port: 443
+  password: 'sin123er'
+  udp: true
+  sni: ikd-id03.iptr.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan-ws"
+
+- name: mainssh globalssh 104.18.23.37
+  server: 104.18.23.37
+  port: 443
+  type: trojan
+  password: 'mainssh-kopsurat'
+  skip-cert-verify: true
+  sni: sgtws.mainssh.xyz
+  network: ws
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+- name: howdy hz globalssh 104.18.23.37
+  server: 104.18.23.37
+  port: 443
+  type: trojan
+  password: 'b197e250-d1db-11ed-819b-1239d0255272'
+  skip-cert-verify: true
+  sni: id-1.test3.net
+  network: ws
+  udp: true
+  ws-opts:
+    path: /howdy
+- name: mainssh sg2 104.18.23.37
+  server: 104.18.23.37
+  port: 443
+  type: trojan
+  password: 'mainssh-sin123er'
+  skip-cert-verify: true
+  sni: sg2tws.mainssh.xyz
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan
+- name: ctb 2 globalssh 104.18.23.37
+  server: 104.18.23.37
+  port: 443
+  udp: true
+  type: trojan
+  password: '123456'
+  skip-cert-verify: true
+  sni: trojan-ctb-sg02.globalssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-ws  
+- name: ctb 3 globalssh 104.18.23.37
+  server: 104.18.23.37
+  port: 443
+  udp: true
+  type: trojan
+  password: '8d32aea0-d1dc-11ed-b3a5-1239d0255272'
+  skip-cert-verify: true
+  sni: sg-2.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+- name: ikd prem 104.18.32.68
+  type: trojan
+  server: 104.18.32.68
+  port: 443
+  password: 'sin123er'
+  udp: true
+  sni: ikd-id03.iptr.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan-ws"
+
+- name: mainssh globalssh 104.18.32.68
+  server: 104.18.32.68
+  port: 443
+  type: trojan
+  password: 'mainssh-kopsurat'
+  skip-cert-verify: true
+  sni: sgtws.mainssh.xyz
+  network: ws
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+- name: howdy hz globalssh 104.18.32.68
+  server: 104.18.32.68
+  port: 443
+  type: trojan
+  password: 'b197e250-d1db-11ed-819b-1239d0255272'
+  skip-cert-verify: true
+  sni: id-1.test3.net
+  network: ws
+  udp: true
+  ws-opts:
+    path: /howdy
+- name: mainssh sg2 104.18.32.68
+  server: 104.18.32.68
+  port: 443
+  type: trojan
+  password: 'mainssh-sin123er'
+  skip-cert-verify: true
+  sni: sg2tws.mainssh.xyz
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan
+- name: ctb 2 globalssh 104.18.32.68
+  server: 104.18.32.68
+  port: 443
+  udp: true
+  type: trojan
+  password: '123456'
+  skip-cert-verify: true
+  sni: trojan-ctb-sg02.globalssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-ws  
+- name: ctb 3 globalssh 104.18.32.68
+  server: 104.18.32.68
+  port: 443
+  udp: true
+  type: trojan
+  password: '8d32aea0-d1dc-11ed-b3a5-1239d0255272'
+  skip-cert-verify: true
+  sni: sg-2.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+- name: ikd prem 104.18.24.243
+  type: trojan
+  server: 104.18.24.243
+  port: 443
+  password: 'sin123er'
+  udp: true
+  sni: ikd-id03.iptr.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan-ws"
+
+- name: mainssh globalssh 104.18.24.243
+  server: 104.18.24.243
+  port: 443
+  type: trojan
+  password: 'mainssh-kopsurat'
+  skip-cert-verify: true
+  sni: sgtws.mainssh.xyz
+  network: ws
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+- name: howdy hz globalssh 104.18.24.243
+  server: 104.18.24.243
+  port: 443
+  type: trojan
+  password: 'b197e250-d1db-11ed-819b-1239d0255272'
+  skip-cert-verify: true
+  sni: id-1.test3.net
+  network: ws
+  udp: true
+  ws-opts:
+    path: /howdy
+- name: mainssh sg2 104.18.24.243
+  server: 104.18.24.243
+  port: 443
+  type: trojan
+  password: 'mainssh-sin123er'
+  skip-cert-verify: true
+  sni: sg2tws.mainssh.xyz
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan
+- name: ctb 2 globalssh 104.18.24.243
+  server: 104.18.24.243
+  port: 443
+  udp: true
+  type: trojan
+  password: '123456'
+  skip-cert-verify: true
+  sni: trojan-ctb-sg02.globalssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-ws  
+- name: ctb 3 globalssh 104.18.24.243
+  server: 104.18.24.243
+  port: 443
+  udp: true
+  type: trojan
+  password: '8d32aea0-d1dc-11ed-b3a5-1239d0255272'
+  skip-cert-verify: true
+  sni: sg-2.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+- name: ikd prem 172.64.155.188
+  type: trojan
+  server: 172.64.155.188
+  port: 443
+  password: 'sin123er'
+  udp: true
+  sni: ikd-id03.iptr.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan-ws"
+
+- name: mainssh globalssh 172.64.155.188
+  server: 172.64.155.188
+  port: 443
+  type: trojan
+  password: 'mainssh-kopsurat'
+  skip-cert-verify: true
+  sni: sgtws.mainssh.xyz
+  network: ws
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+- name: howdy hz globalssh 172.64.155.188
+  server: 172.64.155.188
+  port: 443
+  type: trojan
+  password: 'b197e250-d1db-11ed-819b-1239d0255272'
+  skip-cert-verify: true
+  sni: id-1.test3.net
+  network: ws
+  udp: true
+  ws-opts:
+    path: /howdy
+- name: mainssh sg2 172.64.155.188
+  server: 172.64.155.188
+  port: 443
+  type: trojan
+  password: 'mainssh-sin123er'
+  skip-cert-verify: true
+  sni: sg2tws.mainssh.xyz
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan
+- name: ctb 2 globalssh 172.64.155.188
+  server: 172.64.155.188
+  port: 443
+  udp: true
+  type: trojan
+  password: '123456'
+  skip-cert-verify: true
+  sni: trojan-ctb-sg02.globalssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-ws  
+- name: ctb 3 globalssh 172.64.155.188
+  server: 172.64.155.188
+  port: 443
+  udp: true
+  type: trojan
+  password: '8d32aea0-d1dc-11ed-b3a5-1239d0255272'
+  skip-cert-verify: true
+  sni: sg-2.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+- name: ikd prem 104.18.25.243
+  type: trojan
+  server: 104.18.25.243
+  port: 443
+  password: 'sin123er'
+  udp: true
+  sni: ikd-id03.iptr.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan-ws"
+
+- name: mainssh globalssh 104.18.25.243
+  server: 104.18.25.243
+  port: 443
+  type: trojan
+  password: 'mainssh-kopsurat'
+  skip-cert-verify: true
+  sni: sgtws.mainssh.xyz
+  network: ws
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+- name: howdy hz globalssh 104.18.25.243
+  server: 104.18.25.243
+  port: 443
+  type: trojan
+  password: 'b197e250-d1db-11ed-819b-1239d0255272'
+  skip-cert-verify: true
+  sni: id-1.test3.net
+  network: ws
+  udp: true
+  ws-opts:
+    path: /howdy
+- name: mainssh sg2 104.18.25.243
+  server: 104.18.25.243
+  port: 443
+  type: trojan
+  password: 'mainssh-sin123er'
+  skip-cert-verify: true
+  sni: sg2tws.mainssh.xyz
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan
+- name: ctb 2 globalssh 104.18.25.243
+  server: 104.18.25.243
+  port: 443
+  udp: true
+  type: trojan
+  password: '123456'
+  skip-cert-verify: true
+  sni: trojan-ctb-sg02.globalssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-ws  
+- name: ctb 3 globalssh 104.18.25.243
+  server: 104.18.25.243
+  port: 443
+  udp: true
+  type: trojan
+  password: '8d32aea0-d1dc-11ed-b3a5-1239d0255272'
+  skip-cert-verify: true
+  sni: sg-2.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+- name: ikd prem 104.18.10.8
+  type: trojan
+  server: 104.18.10.8
+  port: 443
+  password: 'sin123er'
+  udp: true
+  sni: ikd-id03.iptr.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan-ws"
+
+- name: mainssh globalssh 104.18.10.8
+  server: 104.18.10.8
+  port: 443
+  type: trojan
+  password: 'mainssh-kopsurat'
+  skip-cert-verify: true
+  sni: sgtws.mainssh.xyz
+  network: ws
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+- name: howdy hz globalssh 104.18.10.8
+  server: 104.18.10.8
+  port: 443
+  type: trojan
+  password: 'b197e250-d1db-11ed-819b-1239d0255272'
+  skip-cert-verify: true
+  sni: id-1.test3.net
+  network: ws
+  udp: true
+  ws-opts:
+    path: /howdy
+- name: mainssh sg2 104.18.10.8
+  server: 104.18.10.8
+  port: 443
+  type: trojan
+  password: 'mainssh-sin123er'
+  skip-cert-verify: true
+  sni: sg2tws.mainssh.xyz
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan
+- name: ctb 2 globalssh 104.18.10.8
+  server: 104.18.10.8
+  port: 443
+  udp: true
+  type: trojan
+  password: '123456'
+  skip-cert-verify: true
+  sni: trojan-ctb-sg02.globalssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-ws  
+- name: ctb 3 globalssh 104.18.10.8
+  server: 104.18.10.8
+  port: 443
+  udp: true
+  type: trojan
+  password: '8d32aea0-d1dc-11ed-b3a5-1239d0255272'
+  skip-cert-verify: true
+  sni: sg-2.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+- name: ikd prem 104.21.4.109
+  type: trojan
+  server: 104.21.4.109
+  port: 443
+  password: 'sin123er'
+  udp: true
+  sni: ikd-id03.iptr.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan-ws"
+
+- name: mainssh globalssh 104.21.4.109
+  server: 104.21.4.109
+  port: 443
+  type: trojan
+  password: 'mainssh-kopsurat'
+  skip-cert-verify: true
+  sni: sgtws.mainssh.xyz
+  network: ws
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+- name: howdy hz globalssh 104.21.4.109
+  server: 104.21.4.109
+  port: 443
+  type: trojan
+  password: 'b197e250-d1db-11ed-819b-1239d0255272'
+  skip-cert-verify: true
+  sni: id-1.test3.net
+  network: ws
+  udp: true
+  ws-opts:
+    path: /howdy
+- name: mainssh sg2 104.21.4.109
+  server: 104.21.4.109
+  port: 443
+  type: trojan
+  password: 'mainssh-sin123er'
+  skip-cert-verify: true
+  sni: sg2tws.mainssh.xyz
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan
+- name: ctb 2 globalssh 104.21.4.109
+  server: 104.21.4.109
+  port: 443
+  udp: true
+  type: trojan
+  password: '123456'
+  skip-cert-verify: true
+  sni: trojan-ctb-sg02.globalssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-ws  
+- name: ctb 3 globalssh 104.21.4.109
+  server: 104.21.4.109
+  port: 443
+  udp: true
+  type: trojan
+  password: '8d32aea0-d1dc-11ed-b3a5-1239d0255272'
+  skip-cert-verify: true
+  sni: sg-2.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+- name: ikd prem 172.67.132.2
+  type: trojan
+  server: 172.67.132.2
+  port: 443
+  password: 'sin123er'
+  udp: true
+  sni: ikd-id03.iptr.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan-ws"
+
+- name: mainssh globalssh 172.67.132.2
+  server: 172.67.132.2
+  port: 443
+  type: trojan
+  password: 'mainssh-kopsurat'
+  skip-cert-verify: true
+  sni: sgtws.mainssh.xyz
+  network: ws
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+- name: howdy hz globalssh 172.67.132.2
+  server: 172.67.132.2
+  port: 443
+  type: trojan
+  password: 'b197e250-d1db-11ed-819b-1239d0255272'
+  skip-cert-verify: true
+  sni: id-1.test3.net
+  network: ws
+  udp: true
+  ws-opts:
+    path: /howdy
+- name: mainssh sg2 172.67.132.2
+  server: 172.67.132.2
+  port: 443
+  type: trojan
+  password: 'mainssh-sin123er'
+  skip-cert-verify: true
+  sni: sg2tws.mainssh.xyz
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan
+- name: ctb 2 globalssh 172.67.132.2
+  server: 172.67.132.2
+  port: 443
+  udp: true
+  type: trojan
+  password: '123456'
+  skip-cert-verify: true
+  sni: trojan-ctb-sg02.globalssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-ws  
+- name: ctb 3 globalssh 172.67.132.2
+  server: 172.67.132.2
+  port: 443
+  udp: true
+  type: trojan
+  password: '8d32aea0-d1dc-11ed-b3a5-1239d0255272'
+  skip-cert-verify: true
+  sni: sg-2.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+- name: ikd prem 104.18.38.174
+  type: trojan
+  server: 104.18.38.174
+  port: 443
+  password: 'sin123er'
+  udp: true
+  sni: ikd-id03.iptr.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan-ws"
+
+- name: mainssh globalssh 104.18.38.174
+  server: 104.18.38.174
+  port: 443
+  type: trojan
+  password: 'mainssh-kopsurat'
+  skip-cert-verify: true
+  sni: sgtws.mainssh.xyz
+  network: ws
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+- name: howdy hz globalssh 104.18.38.174
+  server: 104.18.38.174
+  port: 443
+  type: trojan
+  password: 'b197e250-d1db-11ed-819b-1239d0255272'
+  skip-cert-verify: true
+  sni: id-1.test3.net
+  network: ws
+  udp: true
+  ws-opts:
+    path: /howdy
+- name: mainssh sg2 104.18.38.174
+  server: 104.18.38.174
+  port: 443
+  type: trojan
+  password: 'mainssh-sin123er'
+  skip-cert-verify: true
+  sni: sg2tws.mainssh.xyz
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan
+- name: ctb 2 globalssh 104.18.38.174
+  server: 104.18.38.174
+  port: 443
+  udp: true
+  type: trojan
+  password: '123456'
+  skip-cert-verify: true
+  sni: trojan-ctb-sg02.globalssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-ws  
+- name: ctb 3 globalssh 104.18.38.174
+  server: 104.18.38.174
+  port: 443
+  udp: true
+  type: trojan
+  password: '8d32aea0-d1dc-11ed-b3a5-1239d0255272'
+  skip-cert-verify: true
+  sni: sg-2.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+- name: ikd prem 172.67.211.218
+  type: trojan
+  server: 172.67.211.218
+  port: 443
+  password: 'sin123er'
+  udp: true
+  sni: ikd-id03.iptr.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan-ws"
+
+- name: mainssh globalssh 172.67.211.218
+  server: 172.67.211.218
+  port: 443
+  type: trojan
+  password: 'mainssh-kopsurat'
+  skip-cert-verify: true
+  sni: sgtws.mainssh.xyz
+  network: ws
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+- name: howdy hz globalssh 172.67.211.218
+  server: 172.67.211.218
+  port: 443
+  type: trojan
+  password: 'b197e250-d1db-11ed-819b-1239d0255272'
+  skip-cert-verify: true
+  sni: id-1.test3.net
+  network: ws
+  udp: true
+  ws-opts:
+    path: /howdy
+- name: mainssh sg2 172.67.211.218
+  server: 172.67.211.218
+  port: 443
+  type: trojan
+  password: 'mainssh-sin123er'
+  skip-cert-verify: true
+  sni: sg2tws.mainssh.xyz
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan
+- name: ctb 2 globalssh 172.67.211.218
+  server: 172.67.211.218
+  port: 443
+  udp: true
+  type: trojan
+  password: '123456'
+  skip-cert-verify: true
+  sni: trojan-ctb-sg02.globalssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-ws  
+- name: ctb 3 globalssh 172.67.211.218
+  server: 172.67.211.218
+  port: 443
+  udp: true
+  type: trojan
+  password: '8d32aea0-d1dc-11ed-b3a5-1239d0255272'
+  skip-cert-verify: true
+  sni: sg-2.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+- name: ikd prem 104.21.43.51
+  type: trojan
+  server: 104.21.43.51
+  port: 443
+  password: 'sin123er'
+  udp: true
+  sni: ikd-id03.iptr.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan-ws"
+
+- name: mainssh globalssh 104.21.43.51
+  server: 104.21.43.51
+  port: 443
+  type: trojan
+  password: 'mainssh-kopsurat'
+  skip-cert-verify: true
+  sni: sgtws.mainssh.xyz
+  network: ws
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+- name: howdy hz globalssh 104.21.43.51
+  server: 104.21.43.51
+  port: 443
+  type: trojan
+  password: 'b197e250-d1db-11ed-819b-1239d0255272'
+  skip-cert-verify: true
+  sni: id-1.test3.net
+  network: ws
+  udp: true
+  ws-opts:
+    path: /howdy
+- name: mainssh sg2 104.21.43.51
+  server: 104.21.43.51
+  port: 443
+  type: trojan
+  password: 'mainssh-sin123er'
+  skip-cert-verify: true
+  sni: sg2tws.mainssh.xyz
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan
+- name: ctb 2 globalssh 104.21.43.51
+  server: 104.21.43.51
+  port: 443
+  udp: true
+  type: trojan
+  password: '123456'
+  skip-cert-verify: true
+  sni: trojan-ctb-sg02.globalssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-ws  
+- name: ctb 3 globalssh 104.21.43.51
+  server: 104.21.43.51
+  port: 443
+  udp: true
+  type: trojan
+  password: '8d32aea0-d1dc-11ed-b3a5-1239d0255272'
+  skip-cert-verify: true
+  sni: sg-2.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+- name: ikd prem 172.64.149.82
+  type: trojan
+  server: 172.64.149.82
+  port: 443
+  password: 'sin123er'
+  udp: true
+  sni: ikd-id03.iptr.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan-ws"
+
+- name: mainssh globalssh 172.64.149.82
+  server: 172.64.149.82
+  port: 443
+  type: trojan
+  password: 'mainssh-kopsurat'
+  skip-cert-verify: true
+  sni: sgtws.mainssh.xyz
+  network: ws
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+- name: howdy hz globalssh 172.64.149.82
+  server: 172.64.149.82
+  port: 443
+  type: trojan
+  password: 'b197e250-d1db-11ed-819b-1239d0255272'
+  skip-cert-verify: true
+  sni: id-1.test3.net
+  network: ws
+  udp: true
+  ws-opts:
+    path: /howdy
+- name: mainssh sg2 172.64.149.82
+  server: 172.64.149.82
+  port: 443
+  type: trojan
+  password: 'mainssh-sin123er'
+  skip-cert-verify: true
+  sni: sg2tws.mainssh.xyz
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan
+- name: ctb 2 globalssh 172.64.149.82
+  server: 172.64.149.82
+  port: 443
+  udp: true
+  type: trojan
+  password: '123456'
+  skip-cert-verify: true
+  sni: trojan-ctb-sg02.globalssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-ws  
+- name: ctb 3 globalssh 172.64.149.82
+  server: 172.64.149.82
+  port: 443
+  udp: true
+  type: trojan
+  password: '8d32aea0-d1dc-11ed-b3a5-1239d0255272'
+  skip-cert-verify: true
+  sni: sg-2.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+- name: ikd prem 172.67.220.13
+  type: trojan
+  server: 172.67.220.13
+  port: 443
+  password: 'sin123er'
+  udp: true
+  sni: ikd-id03.iptr.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan-ws"
+
+- name: mainssh globalssh 172.67.220.13
+  server: 172.67.220.13
+  port: 443
+  type: trojan
+  password: 'mainssh-kopsurat'
+  skip-cert-verify: true
+  sni: sgtws.mainssh.xyz
+  network: ws
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+- name: howdy hz globalssh 172.67.220.13
+  server: 172.67.220.13
+  port: 443
+  type: trojan
+  password: 'b197e250-d1db-11ed-819b-1239d0255272'
+  skip-cert-verify: true
+  sni: id-1.test3.net
+  network: ws
+  udp: true
+  ws-opts:
+    path: /howdy
+- name: mainssh sg2 172.67.220.13
+  server: 172.67.220.13
+  port: 443
+  type: trojan
+  password: 'mainssh-sin123er'
+  skip-cert-verify: true
+  sni: sg2tws.mainssh.xyz
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan
+- name: ctb 2 globalssh 172.67.220.13
+  server: 172.67.220.13
+  port: 443
+  udp: true
+  type: trojan
+  password: '123456'
+  skip-cert-verify: true
+  sni: trojan-ctb-sg02.globalssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-ws  
+- name: ctb 3 globalssh 172.67.220.13
+  server: 172.67.220.13
+  port: 443
+  udp: true
+  type: trojan
+  password: '8d32aea0-d1dc-11ed-b3a5-1239d0255272'
+  skip-cert-verify: true
+  sni: sg-2.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+- name: ikd prem 104.21.44.146
+  type: trojan
+  server: 104.21.44.146
+  port: 443
+  password: 'sin123er'
+  udp: true
+  sni: ikd-id03.iptr.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan-ws"
+
+- name: mainssh globalssh 104.21.44.146
+  server: 104.21.44.146
+  port: 443
+  type: trojan
+  password: 'mainssh-kopsurat'
+  skip-cert-verify: true
+  sni: sgtws.mainssh.xyz
+  network: ws
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+- name: howdy hz globalssh 104.21.44.146
+  server: 104.21.44.146
+  port: 443
+  type: trojan
+  password: 'b197e250-d1db-11ed-819b-1239d0255272'
+  skip-cert-verify: true
+  sni: id-1.test3.net
+  network: ws
+  udp: true
+  ws-opts:
+    path: /howdy
+- name: mainssh sg2 104.21.44.146
+  server: 104.21.44.146
+  port: 443
+  type: trojan
+  password: 'mainssh-sin123er'
+  skip-cert-verify: true
+  sni: sg2tws.mainssh.xyz
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan
+- name: ctb 2 globalssh 104.21.44.146
+  server: 104.21.44.146
+  port: 443
+  udp: true
+  type: trojan
+  password: '123456'
+  skip-cert-verify: true
+  sni: trojan-ctb-sg02.globalssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-ws  
+- name: ctb 3 globalssh 104.21.44.146
+  server: 104.21.44.146
+  port: 443
+  udp: true
+  type: trojan
+  password: '8d32aea0-d1dc-11ed-b3a5-1239d0255272'
+  skip-cert-verify: true
+  sni: sg-2.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+- name: ikd prem 104.18.24.139
+  type: trojan
+  server: 104.18.24.139
+  port: 443
+  password: 'sin123er'
+  udp: true
+  sni: ikd-id03.iptr.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan-ws"
+
+- name: mainssh globalssh 104.18.24.139
+  server: 104.18.24.139
+  port: 443
+  type: trojan
+  password: 'mainssh-kopsurat'
+  skip-cert-verify: true
+  sni: sgtws.mainssh.xyz
+  network: ws
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+- name: howdy hz globalssh 104.18.24.139
+  server: 104.18.24.139
+  port: 443
+  type: trojan
+  password: 'b197e250-d1db-11ed-819b-1239d0255272'
+  skip-cert-verify: true
+  sni: id-1.test3.net
+  network: ws
+  udp: true
+  ws-opts:
+    path: /howdy
+- name: mainssh sg2 104.18.24.139
+  server: 104.18.24.139
+  port: 443
+  type: trojan
+  password: 'mainssh-sin123er'
+  skip-cert-verify: true
+  sni: sg2tws.mainssh.xyz
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan
+- name: ctb 2 globalssh 104.18.24.139
+  server: 104.18.24.139
+  port: 443
+  udp: true
+  type: trojan
+  password: '123456'
+  skip-cert-verify: true
+  sni: trojan-ctb-sg02.globalssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-ws  
+- name: ctb 3 globalssh 104.18.24.139
+  server: 104.18.24.139
+  port: 443
+  udp: true
+  type: trojan
+  password: '8d32aea0-d1dc-11ed-b3a5-1239d0255272'
+  skip-cert-verify: true
+  sni: sg-2.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+- name: ikd prem 104.26.3.138
+  type: trojan
+  server: 104.26.3.138
+  port: 443
+  password: 'sin123er'
+  udp: true
+  sni: ikd-id03.iptr.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan-ws"
+
+- name: mainssh globalssh 104.26.3.138
+  server: 104.26.3.138
+  port: 443
+  type: trojan
+  password: 'mainssh-kopsurat'
+  skip-cert-verify: true
+  sni: sgtws.mainssh.xyz
+  network: ws
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+- name: howdy hz globalssh 104.26.3.138
+  server: 104.26.3.138
+  port: 443
+  type: trojan
+  password: 'b197e250-d1db-11ed-819b-1239d0255272'
+  skip-cert-verify: true
+  sni: id-1.test3.net
+  network: ws
+  udp: true
+  ws-opts:
+    path: /howdy
+- name: mainssh sg2 104.26.3.138
+  server: 104.26.3.138
+  port: 443
+  type: trojan
+  password: 'mainssh-sin123er'
+  skip-cert-verify: true
+  sni: sg2tws.mainssh.xyz
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan
+- name: ctb 2 globalssh 104.26.3.138
+  server: 104.26.3.138
+  port: 443
+  udp: true
+  type: trojan
+  password: '123456'
+  skip-cert-verify: true
+  sni: trojan-ctb-sg02.globalssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-ws  
+- name: ctb 3 globalssh 104.26.3.138
+  server: 104.26.3.138
+  port: 443
+  udp: true
+  type: trojan
+  password: '8d32aea0-d1dc-11ed-b3a5-1239d0255272'
+  skip-cert-verify: true
+  sni: sg-2.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+- name: ikd prem 104.21.83.237
+  type: trojan
+  server: 104.21.83.237
+  port: 443
+  password: 'sin123er'
+  udp: true
+  sni: ikd-id03.iptr.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan-ws"
+
+- name: mainssh globalssh 104.21.83.237
+  server: 104.21.83.237
+  port: 443
+  type: trojan
+  password: 'mainssh-kopsurat'
+  skip-cert-verify: true
+  sni: sgtws.mainssh.xyz
+  network: ws
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+- name: howdy hz globalssh 104.21.83.237
+  server: 104.21.83.237
+  port: 443
+  type: trojan
+  password: 'b197e250-d1db-11ed-819b-1239d0255272'
+  skip-cert-verify: true
+  sni: id-1.test3.net
+  network: ws
+  udp: true
+  ws-opts:
+    path: /howdy
+- name: mainssh sg2 104.21.83.237
+  server: 104.21.83.237
+  port: 443
+  type: trojan
+  password: 'mainssh-sin123er'
+  skip-cert-verify: true
+  sni: sg2tws.mainssh.xyz
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan
+- name: ctb 2 globalssh 104.21.83.237
+  server: 104.21.83.237
+  port: 443
+  udp: true
+  type: trojan
+  password: '123456'
+  skip-cert-verify: true
+  sni: trojan-ctb-sg02.globalssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-ws  
+- name: ctb 3 globalssh 104.21.83.237
+  server: 104.21.83.237
+  port: 443
+  udp: true
+  type: trojan
+  password: '8d32aea0-d1dc-11ed-b3a5-1239d0255272'
+  skip-cert-verify: true
+  sni: sg-2.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+- name: ikd prem 172.67.222.11
+  type: trojan
+  server: 172.67.222.11
+  port: 443
+  password: 'sin123er'
+  udp: true
+  sni: ikd-id03.iptr.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan-ws"
+
+- name: mainssh globalssh 172.67.222.11
+  server: 172.67.222.11
+  port: 443
+  type: trojan
+  password: 'mainssh-kopsurat'
+  skip-cert-verify: true
+  sni: sgtws.mainssh.xyz
+  network: ws
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+- name: howdy hz globalssh 172.67.222.11
+  server: 172.67.222.11
+  port: 443
+  type: trojan
+  password: 'b197e250-d1db-11ed-819b-1239d0255272'
+  skip-cert-verify: true
+  sni: id-1.test3.net
+  network: ws
+  udp: true
+  ws-opts:
+    path: /howdy
+- name: mainssh sg2 172.67.222.11
+  server: 172.67.222.11
+  port: 443
+  type: trojan
+  password: 'mainssh-sin123er'
+  skip-cert-verify: true
+  sni: sg2tws.mainssh.xyz
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan
+- name: ctb 2 globalssh 172.67.222.11
+  server: 172.67.222.11
+  port: 443
+  udp: true
+  type: trojan
+  password: '123456'
+  skip-cert-verify: true
+  sni: trojan-ctb-sg02.globalssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-ws  
+- name: ctb 3 globalssh 172.67.222.11
+  server: 172.67.222.11
+  port: 443
+  udp: true
+  type: trojan
+  password: '8d32aea0-d1dc-11ed-b3a5-1239d0255272'
+  skip-cert-verify: true
+  sni: sg-2.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+- name: ikd prem 104.21.73.168
+  type: trojan
+  server: 104.21.73.168
+  port: 443
+  password: 'sin123er'
+  udp: true
+  sni: ikd-id03.iptr.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan-ws"
+
+- name: mainssh globalssh 104.21.73.168
+  server: 104.21.73.168
+  port: 443
+  type: trojan
+  password: 'mainssh-kopsurat'
+  skip-cert-verify: true
+  sni: sgtws.mainssh.xyz
+  network: ws
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+- name: howdy hz globalssh 104.21.73.168
+  server: 104.21.73.168
+  port: 443
+  type: trojan
+  password: 'b197e250-d1db-11ed-819b-1239d0255272'
+  skip-cert-verify: true
+  sni: id-1.test3.net
+  network: ws
+  udp: true
+  ws-opts:
+    path: /howdy
+- name: mainssh sg2 104.21.73.168
+  server: 104.21.73.168
+  port: 443
+  type: trojan
+  password: 'mainssh-sin123er'
+  skip-cert-verify: true
+  sni: sg2tws.mainssh.xyz
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan
+- name: ctb 2 globalssh 104.21.73.168
+  server: 104.21.73.168
+  port: 443
+  udp: true
+  type: trojan
+  password: '123456'
+  skip-cert-verify: true
+  sni: trojan-ctb-sg02.globalssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-ws  
+- name: ctb 3 globalssh 104.21.73.168
+  server: 104.21.73.168
+  port: 443
+  udp: true
+  type: trojan
+  password: '8d32aea0-d1dc-11ed-b3a5-1239d0255272'
+  skip-cert-verify: true
+  sni: sg-2.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+- name: ikd prem 172.67.200.200
+  type: trojan
+  server: 172.67.200.200
+  port: 443
+  password: 'sin123er'
+  udp: true
+  sni: ikd-id03.iptr.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan-ws"
+
+- name: mainssh globalssh 172.67.200.200
+  server: 172.67.200.200
+  port: 443
+  type: trojan
+  password: 'mainssh-kopsurat'
+  skip-cert-verify: true
+  sni: sgtws.mainssh.xyz
+  network: ws
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+- name: howdy hz globalssh 172.67.200.200
+  server: 172.67.200.200
+  port: 443
+  type: trojan
+  password: 'b197e250-d1db-11ed-819b-1239d0255272'
+  skip-cert-verify: true
+  sni: id-1.test3.net
+  network: ws
+  udp: true
+  ws-opts:
+    path: /howdy
+- name: mainssh sg2 172.67.200.200
+  server: 172.67.200.200
+  port: 443
+  type: trojan
+  password: 'mainssh-sin123er'
+  skip-cert-verify: true
+  sni: sg2tws.mainssh.xyz
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan
+- name: ctb 2 globalssh 172.67.200.200
+  server: 172.67.200.200
+  port: 443
+  udp: true
+  type: trojan
+  password: '123456'
+  skip-cert-verify: true
+  sni: trojan-ctb-sg02.globalssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-ws  
+- name: ctb 3 globalssh 172.67.200.200
+  server: 172.67.200.200
+  port: 443
+  udp: true
+  type: trojan
+  password: '8d32aea0-d1dc-11ed-b3a5-1239d0255272'
+  skip-cert-verify: true
+  sni: sg-2.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+- name: ikd prem 172.67.146.74
+  type: trojan
+  server: 172.67.146.74
+  port: 443
+  password: 'sin123er'
+  udp: true
+  sni: ikd-id03.iptr.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan-ws"
+
+- name: mainssh globalssh 172.67.146.74
+  server: 172.67.146.74
+  port: 443
+  type: trojan
+  password: 'mainssh-kopsurat'
+  skip-cert-verify: true
+  sni: sgtws.mainssh.xyz
+  network: ws
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+- name: howdy hz globalssh 172.67.146.74
+  server: 172.67.146.74
+  port: 443
+  type: trojan
+  password: 'b197e250-d1db-11ed-819b-1239d0255272'
+  skip-cert-verify: true
+  sni: id-1.test3.net
+  network: ws
+  udp: true
+  ws-opts:
+    path: /howdy
+- name: mainssh sg2 172.67.146.74
+  server: 172.67.146.74
+  port: 443
+  type: trojan
+  password: 'mainssh-sin123er'
+  skip-cert-verify: true
+  sni: sg2tws.mainssh.xyz
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan
+- name: ctb 2 globalssh 172.67.146.74
+  server: 172.67.146.74
+  port: 443
+  udp: true
+  type: trojan
+  password: '123456'
+  skip-cert-verify: true
+  sni: trojan-ctb-sg02.globalssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-ws  
+- name: ctb 3 globalssh 172.67.146.74
+  server: 172.67.146.74
+  port: 443
+  udp: true
+  type: trojan
+  password: '8d32aea0-d1dc-11ed-b3a5-1239d0255272'
+  skip-cert-verify: true
+  sni: sg-2.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+- name: ikd prem 104.26.4.192
+  type: trojan
+  server: 104.26.4.192
+  port: 443
+  password: 'sin123er'
+  udp: true
+  sni: ikd-id03.iptr.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan-ws"
+
+- name: mainssh globalssh 104.26.4.192
+  server: 104.26.4.192
+  port: 443
+  type: trojan
+  password: 'mainssh-kopsurat'
+  skip-cert-verify: true
+  sni: sgtws.mainssh.xyz
+  network: ws
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+- name: howdy hz globalssh 104.26.4.192
+  server: 104.26.4.192
+  port: 443
+  type: trojan
+  password: 'b197e250-d1db-11ed-819b-1239d0255272'
+  skip-cert-verify: true
+  sni: id-1.test3.net
+  network: ws
+  udp: true
+  ws-opts:
+    path: /howdy
+- name: mainssh sg2 104.26.4.192
+  server: 104.26.4.192
+  port: 443
+  type: trojan
+  password: 'mainssh-sin123er'
+  skip-cert-verify: true
+  sni: sg2tws.mainssh.xyz
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan
+- name: ctb 2 globalssh 104.26.4.192
+  server: 104.26.4.192
+  port: 443
+  udp: true
+  type: trojan
+  password: '123456'
+  skip-cert-verify: true
+  sni: trojan-ctb-sg02.globalssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-ws  
+- name: ctb 3 globalssh 104.26.4.192
+  server: 104.26.4.192
+  port: 443
+  udp: true
+  type: trojan
+  password: '8d32aea0-d1dc-11ed-b3a5-1239d0255272'
+  skip-cert-verify: true
+  sni: sg-2.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+- name: ikd prem 104.21.67.36
+  type: trojan
+  server: 104.21.67.36
+  port: 443
+  password: 'sin123er'
+  udp: true
+  sni: ikd-id03.iptr.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan-ws"
+
+- name: mainssh globalssh 104.21.67.36
+  server: 104.21.67.36
+  port: 443
+  type: trojan
+  password: 'mainssh-kopsurat'
+  skip-cert-verify: true
+  sni: sgtws.mainssh.xyz
+  network: ws
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+- name: howdy hz globalssh 104.21.67.36
+  server: 104.21.67.36
+  port: 443
+  type: trojan
+  password: 'b197e250-d1db-11ed-819b-1239d0255272'
+  skip-cert-verify: true
+  sni: id-1.test3.net
+  network: ws
+  udp: true
+  ws-opts:
+    path: /howdy
+- name: mainssh sg2 104.21.67.36
+  server: 104.21.67.36
+  port: 443
+  type: trojan
+  password: 'mainssh-sin123er'
+  skip-cert-verify: true
+  sni: sg2tws.mainssh.xyz
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan
+- name: ctb 2 globalssh 104.21.67.36
+  server: 104.21.67.36
+  port: 443
+  udp: true
+  type: trojan
+  password: '123456'
+  skip-cert-verify: true
+  sni: trojan-ctb-sg02.globalssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-ws  
+- name: ctb 3 globalssh 104.21.67.36
+  server: 104.21.67.36
+  port: 443
+  udp: true
+  type: trojan
+  password: '8d32aea0-d1dc-11ed-b3a5-1239d0255272'
+  skip-cert-verify: true
+  sni: sg-2.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+- name: ikd prem 172.67.73.5
+  type: trojan
+  server: 172.67.73.5
+  port: 443
+  password: 'sin123er'
+  udp: true
+  sni: ikd-id03.iptr.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan-ws"
+
+- name: mainssh globalssh 172.67.73.5
+  server: 172.67.73.5
+  port: 443
+  type: trojan
+  password: 'mainssh-kopsurat'
+  skip-cert-verify: true
+  sni: sgtws.mainssh.xyz
+  network: ws
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+- name: howdy hz globalssh 172.67.73.5
+  server: 172.67.73.5
+  port: 443
+  type: trojan
+  password: 'b197e250-d1db-11ed-819b-1239d0255272'
+  skip-cert-verify: true
+  sni: id-1.test3.net
+  network: ws
+  udp: true
+  ws-opts:
+    path: /howdy
+- name: mainssh sg2 172.67.73.5
+  server: 172.67.73.5
+  port: 443
+  type: trojan
+  password: 'mainssh-sin123er'
+  skip-cert-verify: true
+  sni: sg2tws.mainssh.xyz
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan
+- name: ctb 2 globalssh 172.67.73.5
+  server: 172.67.73.5
+  port: 443
+  udp: true
+  type: trojan
+  password: '123456'
+  skip-cert-verify: true
+  sni: trojan-ctb-sg02.globalssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-ws  
+- name: ctb 3 globalssh 172.67.73.5
+  server: 172.67.73.5
+  port: 443
+  udp: true
+  type: trojan
+  password: '8d32aea0-d1dc-11ed-b3a5-1239d0255272'
+  skip-cert-verify: true
+  sni: sg-2.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+- name: ikd prem 170.114.45.0
+  type: trojan
+  server: 170.114.45.0
+  port: 443
+  password: 'sin123er'
+  udp: true
+  sni: ikd-id03.iptr.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan-ws"
+
+- name: mainssh globalssh 170.114.45.0
+  server: 170.114.45.0
+  port: 443
+  type: trojan
+  password: 'mainssh-kopsurat'
+  skip-cert-verify: true
+  sni: sgtws.mainssh.xyz
+  network: ws
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+- name: howdy hz globalssh 170.114.45.0
+  server: 170.114.45.0
+  port: 443
+  type: trojan
+  password: 'b197e250-d1db-11ed-819b-1239d0255272'
+  skip-cert-verify: true
+  sni: id-1.test3.net
+  network: ws
+  udp: true
+  ws-opts:
+    path: /howdy
+- name: mainssh sg2 170.114.45.0
+  server: 170.114.45.0
+  port: 443
+  type: trojan
+  password: 'mainssh-sin123er'
+  skip-cert-verify: true
+  sni: sg2tws.mainssh.xyz
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan
+- name: ctb 2 globalssh 170.114.45.0
+  server: 170.114.45.0
+  port: 443
+  udp: true
+  type: trojan
+  password: '123456'
+  skip-cert-verify: true
+  sni: trojan-ctb-sg02.globalssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-ws  
+- name: ctb 3 globalssh 170.114.45.0
+  server: 170.114.45.0
+  port: 443
+  udp: true
+  type: trojan
+  password: '8d32aea0-d1dc-11ed-b3a5-1239d0255272'
+  skip-cert-verify: true
+  sni: sg-2.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+- name: ikd prem 104.18.31.9
+  type: trojan
+  server: 104.18.31.9
+  port: 443
+  password: 'sin123er'
+  udp: true
+  sni: ikd-id03.iptr.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan-ws"
+
+- name: mainssh globalssh 104.18.31.9
+  server: 104.18.31.9
+  port: 443
+  type: trojan
+  password: 'mainssh-kopsurat'
+  skip-cert-verify: true
+  sni: sgtws.mainssh.xyz
+  network: ws
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+- name: howdy hz globalssh 104.18.31.9
+  server: 104.18.31.9
+  port: 443
+  type: trojan
+  password: 'b197e250-d1db-11ed-819b-1239d0255272'
+  skip-cert-verify: true
+  sni: id-1.test3.net
+  network: ws
+  udp: true
+  ws-opts:
+    path: /howdy
+- name: mainssh sg2 104.18.31.9
+  server: 104.18.31.9
+  port: 443
+  type: trojan
+  password: 'mainssh-sin123er'
+  skip-cert-verify: true
+  sni: sg2tws.mainssh.xyz
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan
+- name: ctb 2 globalssh 104.18.31.9
+  server: 104.18.31.9
+  port: 443
+  udp: true
+  type: trojan
+  password: '123456'
+  skip-cert-verify: true
+  sni: trojan-ctb-sg02.globalssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-ws  
+- name: ctb 3 globalssh 104.18.31.9
+  server: 104.18.31.9
+  port: 443
+  udp: true
+  type: trojan
+  password: '8d32aea0-d1dc-11ed-b3a5-1239d0255272'
+  skip-cert-verify: true
+  sni: sg-2.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+- name: ikd prem 104.26.5.192
+  type: trojan
+  server: 104.26.5.192
+  port: 443
+  password: 'sin123er'
+  udp: true
+  sni: ikd-id03.iptr.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan-ws"
+
+- name: mainssh globalssh 104.26.5.192
+  server: 104.26.5.192
+  port: 443
+  type: trojan
+  password: 'mainssh-kopsurat'
+  skip-cert-verify: true
+  sni: sgtws.mainssh.xyz
+  network: ws
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+- name: howdy hz globalssh 104.26.5.192
+  server: 104.26.5.192
+  port: 443
+  type: trojan
+  password: 'b197e250-d1db-11ed-819b-1239d0255272'
+  skip-cert-verify: true
+  sni: id-1.test3.net
+  network: ws
+  udp: true
+  ws-opts:
+    path: /howdy
+- name: mainssh sg2 104.26.5.192
+  server: 104.26.5.192
+  port: 443
+  type: trojan
+  password: 'mainssh-sin123er'
+  skip-cert-verify: true
+  sni: sg2tws.mainssh.xyz
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan
+- name: ctb 2 globalssh 104.26.5.192
+  server: 104.26.5.192
+  port: 443
+  udp: true
+  type: trojan
+  password: '123456'
+  skip-cert-verify: true
+  sni: trojan-ctb-sg02.globalssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-ws  
+- name: ctb 3 globalssh 104.26.5.192
+  server: 104.26.5.192
+  port: 443
+  udp: true
+  type: trojan
+  password: '8d32aea0-d1dc-11ed-b3a5-1239d0255272'
+  skip-cert-verify: true
+  sni: sg-2.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+- name: ikd prem 172.67.69.152
+  type: trojan
+  server: 172.67.69.152
+  port: 443
+  password: 'sin123er'
+  udp: true
+  sni: ikd-id03.iptr.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan-ws"
+
+- name: mainssh globalssh 172.67.69.152
+  server: 172.67.69.152
+  port: 443
+  type: trojan
+  password: 'mainssh-kopsurat'
+  skip-cert-verify: true
+  sni: sgtws.mainssh.xyz
+  network: ws
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+- name: howdy hz globalssh 172.67.69.152
+  server: 172.67.69.152
+  port: 443
+  type: trojan
+  password: 'b197e250-d1db-11ed-819b-1239d0255272'
+  skip-cert-verify: true
+  sni: id-1.test3.net
+  network: ws
+  udp: true
+  ws-opts:
+    path: /howdy
+- name: mainssh sg2 172.67.69.152
+  server: 172.67.69.152
+  port: 443
+  type: trojan
+  password: 'mainssh-sin123er'
+  skip-cert-verify: true
+  sni: sg2tws.mainssh.xyz
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan
+- name: ctb 2 globalssh 172.67.69.152
+  server: 172.67.69.152
+  port: 443
+  udp: true
+  type: trojan
+  password: '123456'
+  skip-cert-verify: true
+  sni: trojan-ctb-sg02.globalssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-ws  
+- name: ctb 3 globalssh 172.67.69.152
+  server: 172.67.69.152
+  port: 443
+  udp: true
+  type: trojan
+  password: '8d32aea0-d1dc-11ed-b3a5-1239d0255272'
+  skip-cert-verify: true
+  sni: sg-2.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+- name: ikd prem 104.21.96.123
+  type: trojan
+  server: 104.21.96.123
+  port: 443
+  password: 'sin123er'
+  udp: true
+  sni: ikd-id03.iptr.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan-ws"
+
+- name: mainssh globalssh 104.21.96.123
+  server: 104.21.96.123
+  port: 443
+  type: trojan
+  password: 'mainssh-kopsurat'
+  skip-cert-verify: true
+  sni: sgtws.mainssh.xyz
+  network: ws
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+- name: howdy hz globalssh 104.21.96.123
+  server: 104.21.96.123
+  port: 443
+  type: trojan
+  password: 'b197e250-d1db-11ed-819b-1239d0255272'
+  skip-cert-verify: true
+  sni: id-1.test3.net
+  network: ws
+  udp: true
+  ws-opts:
+    path: /howdy
+- name: mainssh sg2 104.21.96.123
+  server: 104.21.96.123
+  port: 443
+  type: trojan
+  password: 'mainssh-sin123er'
+  skip-cert-verify: true
+  sni: sg2tws.mainssh.xyz
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan
+- name: ctb 2 globalssh 104.21.96.123
+  server: 104.21.96.123
+  port: 443
+  udp: true
+  type: trojan
+  password: '123456'
+  skip-cert-verify: true
+  sni: trojan-ctb-sg02.globalssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-ws  
+- name: ctb 3 globalssh 104.21.96.123
+  server: 104.21.96.123
+  port: 443
+  udp: true
+  type: trojan
+  password: '8d32aea0-d1dc-11ed-b3a5-1239d0255272'
+  skip-cert-verify: true
+  sni: sg-2.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+- name: ikd prem 104.26.5.10
+  type: trojan
+  server: 104.26.5.10
+  port: 443
+  password: 'sin123er'
+  udp: true
+  sni: ikd-id03.iptr.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan-ws"
+
+- name: mainssh globalssh 104.26.5.10
+  server: 104.26.5.10
+  port: 443
+  type: trojan
+  password: 'mainssh-kopsurat'
+  skip-cert-verify: true
+  sni: sgtws.mainssh.xyz
+  network: ws
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+- name: howdy hz globalssh 104.26.5.10
+  server: 104.26.5.10
+  port: 443
+  type: trojan
+  password: 'b197e250-d1db-11ed-819b-1239d0255272'
+  skip-cert-verify: true
+  sni: id-1.test3.net
+  network: ws
+  udp: true
+  ws-opts:
+    path: /howdy
+- name: mainssh sg2 104.26.5.10
+  server: 104.26.5.10
+  port: 443
+  type: trojan
+  password: 'mainssh-sin123er'
+  skip-cert-verify: true
+  sni: sg2tws.mainssh.xyz
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan
+- name: ctb 2 globalssh 104.26.5.10
+  server: 104.26.5.10
+  port: 443
+  udp: true
+  type: trojan
+  password: '123456'
+  skip-cert-verify: true
+  sni: trojan-ctb-sg02.globalssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-ws  
+- name: ctb 3 globalssh 104.26.5.10
+  server: 104.26.5.10
+  port: 443
+  udp: true
+  type: trojan
+  password: '8d32aea0-d1dc-11ed-b3a5-1239d0255272'
+  skip-cert-verify: true
+  sni: sg-2.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+- name: ikd prem 141.193.213.20
+  type: trojan
+  server: 141.193.213.20
+  port: 443
+  password: 'sin123er'
+  udp: true
+  sni: ikd-id03.iptr.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan-ws"
+
+- name: mainssh globalssh 141.193.213.20
+  server: 141.193.213.20
+  port: 443
+  type: trojan
+  password: 'mainssh-kopsurat'
+  skip-cert-verify: true
+  sni: sgtws.mainssh.xyz
+  network: ws
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+- name: howdy hz globalssh 141.193.213.20
+  server: 141.193.213.20
+  port: 443
+  type: trojan
+  password: 'b197e250-d1db-11ed-819b-1239d0255272'
+  skip-cert-verify: true
+  sni: id-1.test3.net
+  network: ws
+  udp: true
+  ws-opts:
+    path: /howdy
+- name: mainssh sg2 141.193.213.20
+  server: 141.193.213.20
+  port: 443
+  type: trojan
+  password: 'mainssh-sin123er'
+  skip-cert-verify: true
+  sni: sg2tws.mainssh.xyz
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan
+- name: ctb 2 globalssh 141.193.213.20
+  server: 141.193.213.20
+  port: 443
+  udp: true
+  type: trojan
+  password: '123456'
+  skip-cert-verify: true
+  sni: trojan-ctb-sg02.globalssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-ws  
+- name: ctb 3 globalssh 141.193.213.20
+  server: 141.193.213.20
+  port: 443
+  udp: true
+  type: trojan
+  password: '8d32aea0-d1dc-11ed-b3a5-1239d0255272'
+  skip-cert-verify: true
+  sni: sg-2.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+- name: ikd prem 104.16.53.111
+  type: trojan
+  server: 104.16.53.111
+  port: 443
+  password: 'sin123er'
+  udp: true
+  sni: ikd-id03.iptr.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan-ws"
+
+- name: mainssh globalssh 104.16.53.111
+  server: 104.16.53.111
+  port: 443
+  type: trojan
+  password: 'mainssh-kopsurat'
+  skip-cert-verify: true
+  sni: sgtws.mainssh.xyz
+  network: ws
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+- name: howdy hz globalssh 104.16.53.111
+  server: 104.16.53.111
+  port: 443
+  type: trojan
+  password: 'b197e250-d1db-11ed-819b-1239d0255272'
+  skip-cert-verify: true
+  sni: id-1.test3.net
+  network: ws
+  udp: true
+  ws-opts:
+    path: /howdy
+- name: mainssh sg2 104.16.53.111
+  server: 104.16.53.111
+  port: 443
+  type: trojan
+  password: 'mainssh-sin123er'
+  skip-cert-verify: true
+  sni: sg2tws.mainssh.xyz
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan
+- name: ctb 2 globalssh 104.16.53.111
+  server: 104.16.53.111
+  port: 443
+  udp: true
+  type: trojan
+  password: '123456'
+  skip-cert-verify: true
+  sni: trojan-ctb-sg02.globalssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-ws  
+- name: ctb 3 globalssh 104.16.53.111
+  server: 104.16.53.111
+  port: 443
+  udp: true
+  type: trojan
+  password: '8d32aea0-d1dc-11ed-b3a5-1239d0255272'
+  skip-cert-verify: true
+  sni: sg-2.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+- name: ikd prem 104.18.30.9
+  type: trojan
+  server: 104.18.30.9
+  port: 443
+  password: 'sin123er'
+  udp: true
+  sni: ikd-id03.iptr.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan-ws"
+
+- name: mainssh globalssh 104.18.30.9
+  server: 104.18.30.9
+  port: 443
+  type: trojan
+  password: 'mainssh-kopsurat'
+  skip-cert-verify: true
+  sni: sgtws.mainssh.xyz
+  network: ws
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+- name: howdy hz globalssh 104.18.30.9
+  server: 104.18.30.9
+  port: 443
+  type: trojan
+  password: 'b197e250-d1db-11ed-819b-1239d0255272'
+  skip-cert-verify: true
+  sni: id-1.test3.net
+  network: ws
+  udp: true
+  ws-opts:
+    path: /howdy
+- name: mainssh sg2 104.18.30.9
+  server: 104.18.30.9
+  port: 443
+  type: trojan
+  password: 'mainssh-sin123er'
+  skip-cert-verify: true
+  sni: sg2tws.mainssh.xyz
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan
+- name: ctb 2 globalssh 104.18.30.9
+  server: 104.18.30.9
+  port: 443
+  udp: true
+  type: trojan
+  password: '123456'
+  skip-cert-verify: true
+  sni: trojan-ctb-sg02.globalssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-ws  
+- name: ctb 3 globalssh 104.18.30.9
+  server: 104.18.30.9
+  port: 443
+  udp: true
+  type: trojan
+  password: '8d32aea0-d1dc-11ed-b3a5-1239d0255272'
+  skip-cert-verify: true
+  sni: sg-2.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+- name: ikd prem 104.18.21.226
+  type: trojan
+  server: 104.18.21.226
+  port: 443
+  password: 'sin123er'
+  udp: true
+  sni: ikd-id03.iptr.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan-ws"
+
+- name: mainssh globalssh 104.18.21.226
+  server: 104.18.21.226
+  port: 443
+  type: trojan
+  password: 'mainssh-kopsurat'
+  skip-cert-verify: true
+  sni: sgtws.mainssh.xyz
+  network: ws
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+- name: howdy hz globalssh 104.18.21.226
+  server: 104.18.21.226
+  port: 443
+  type: trojan
+  password: 'b197e250-d1db-11ed-819b-1239d0255272'
+  skip-cert-verify: true
+  sni: id-1.test3.net
+  network: ws
+  udp: true
+  ws-opts:
+    path: /howdy
+- name: mainssh sg2 104.18.21.226
+  server: 104.18.21.226
+  port: 443
+  type: trojan
+  password: 'mainssh-sin123er'
+  skip-cert-verify: true
+  sni: sg2tws.mainssh.xyz
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan
+- name: ctb 2 globalssh 104.18.21.226
+  server: 104.18.21.226
+  port: 443
+  udp: true
+  type: trojan
+  password: '123456'
+  skip-cert-verify: true
+  sni: trojan-ctb-sg02.globalssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-ws  
+- name: ctb 3 globalssh 104.18.21.226
+  server: 104.18.21.226
+  port: 443
+  udp: true
+  type: trojan
+  password: '8d32aea0-d1dc-11ed-b3a5-1239d0255272'
+  skip-cert-verify: true
+  sni: sg-2.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+- name: ikd prem 104.26.2.138
+  type: trojan
+  server: 104.26.2.138
+  port: 443
+  password: 'sin123er'
+  udp: true
+  sni: ikd-id03.iptr.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan-ws"
+
+- name: mainssh globalssh 104.26.2.138
+  server: 104.26.2.138
+  port: 443
+  type: trojan
+  password: 'mainssh-kopsurat'
+  skip-cert-verify: true
+  sni: sgtws.mainssh.xyz
+  network: ws
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+- name: howdy hz globalssh 104.26.2.138
+  server: 104.26.2.138
+  port: 443
+  type: trojan
+  password: 'b197e250-d1db-11ed-819b-1239d0255272'
+  skip-cert-verify: true
+  sni: id-1.test3.net
+  network: ws
+  udp: true
+  ws-opts:
+    path: /howdy
+- name: mainssh sg2 104.26.2.138
+  server: 104.26.2.138
+  port: 443
+  type: trojan
+  password: 'mainssh-sin123er'
+  skip-cert-verify: true
+  sni: sg2tws.mainssh.xyz
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan
+- name: ctb 2 globalssh 104.26.2.138
+  server: 104.26.2.138
+  port: 443
+  udp: true
+  type: trojan
+  password: '123456'
+  skip-cert-verify: true
+  sni: trojan-ctb-sg02.globalssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-ws  
+- name: ctb 3 globalssh 104.26.2.138
+  server: 104.26.2.138
+  port: 443
+  udp: true
+  type: trojan
+  password: '8d32aea0-d1dc-11ed-b3a5-1239d0255272'
+  skip-cert-verify: true
+  sni: sg-2.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+- name: ikd prem 104.18.25.139
+  type: trojan
+  server: 104.18.25.139
+  port: 443
+  password: 'sin123er'
+  udp: true
+  sni: ikd-id03.iptr.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan-ws"
+
+- name: mainssh globalssh 104.18.25.139
+  server: 104.18.25.139
+  port: 443
+  type: trojan
+  password: 'mainssh-kopsurat'
+  skip-cert-verify: true
+  sni: sgtws.mainssh.xyz
+  network: ws
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+- name: howdy hz globalssh 104.18.25.139
+  server: 104.18.25.139
+  port: 443
+  type: trojan
+  password: 'b197e250-d1db-11ed-819b-1239d0255272'
+  skip-cert-verify: true
+  sni: id-1.test3.net
+  network: ws
+  udp: true
+  ws-opts:
+    path: /howdy
+- name: mainssh sg2 104.18.25.139
+  server: 104.18.25.139
+  port: 443
+  type: trojan
+  password: 'mainssh-sin123er'
+  skip-cert-verify: true
+  sni: sg2tws.mainssh.xyz
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan
+- name: ctb 2 globalssh 104.18.25.139
+  server: 104.18.25.139
+  port: 443
+  udp: true
+  type: trojan
+  password: '123456'
+  skip-cert-verify: true
+  sni: trojan-ctb-sg02.globalssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-ws  
+- name: ctb 3 globalssh 104.18.25.139
+  server: 104.18.25.139
+  port: 443
+  udp: true
+  type: trojan
+  password: '8d32aea0-d1dc-11ed-b3a5-1239d0255272'
+  skip-cert-verify: true
+  sni: sg-2.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+- name: ikd prem 104.18.31.185
+  type: trojan
+  server: 104.18.31.185
+  port: 443
+  password: 'sin123er'
+  udp: true
+  sni: ikd-id03.iptr.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan-ws"
+
+- name: mainssh globalssh 104.18.31.185
+  server: 104.18.31.185
+  port: 443
+  type: trojan
+  password: 'mainssh-kopsurat'
+  skip-cert-verify: true
+  sni: sgtws.mainssh.xyz
+  network: ws
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+- name: howdy hz globalssh 104.18.31.185
+  server: 104.18.31.185
+  port: 443
+  type: trojan
+  password: 'b197e250-d1db-11ed-819b-1239d0255272'
+  skip-cert-verify: true
+  sni: id-1.test3.net
+  network: ws
+  udp: true
+  ws-opts:
+    path: /howdy
+- name: mainssh sg2 104.18.31.185
+  server: 104.18.31.185
+  port: 443
+  type: trojan
+  password: 'mainssh-sin123er'
+  skip-cert-verify: true
+  sni: sg2tws.mainssh.xyz
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan
+- name: ctb 2 globalssh 104.18.31.185
+  server: 104.18.31.185
+  port: 443
+  udp: true
+  type: trojan
+  password: '123456'
+  skip-cert-verify: true
+  sni: trojan-ctb-sg02.globalssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-ws  
+- name: ctb 3 globalssh 104.18.31.185
+  server: 104.18.31.185
+  port: 443
+  udp: true
+  type: trojan
+  password: '8d32aea0-d1dc-11ed-b3a5-1239d0255272'
+  skip-cert-verify: true
+  sni: sg-2.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+- name: ikd prem 104.16.66.85
+  type: trojan
+  server: 104.16.66.85
+  port: 443
+  password: 'sin123er'
+  udp: true
+  sni: ikd-id03.iptr.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan-ws"
+
+- name: mainssh globalssh 104.16.66.85
+  server: 104.16.66.85
+  port: 443
+  type: trojan
+  password: 'mainssh-kopsurat'
+  skip-cert-verify: true
+  sni: sgtws.mainssh.xyz
+  network: ws
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+- name: howdy hz globalssh 104.16.66.85
+  server: 104.16.66.85
+  port: 443
+  type: trojan
+  password: 'b197e250-d1db-11ed-819b-1239d0255272'
+  skip-cert-verify: true
+  sni: id-1.test3.net
+  network: ws
+  udp: true
+  ws-opts:
+    path: /howdy
+- name: mainssh sg2 104.16.66.85
+  server: 104.16.66.85
+  port: 443
+  type: trojan
+  password: 'mainssh-sin123er'
+  skip-cert-verify: true
+  sni: sg2tws.mainssh.xyz
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan
+- name: ctb 2 globalssh 104.16.66.85
+  server: 104.16.66.85
+  port: 443
+  udp: true
+  type: trojan
+  password: '123456'
+  skip-cert-verify: true
+  sni: trojan-ctb-sg02.globalssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-ws  
+- name: ctb 3 globalssh 104.16.66.85
+  server: 104.16.66.85
+  port: 443
+  udp: true
+  type: trojan
+  password: '8d32aea0-d1dc-11ed-b3a5-1239d0255272'
+  skip-cert-verify: true
+  sni: sg-2.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+- name: ikd prem 172.67.199.34
+  type: trojan
+  server: 172.67.199.34
+  port: 443
+  password: 'sin123er'
+  udp: true
+  sni: ikd-id03.iptr.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan-ws"
+
+- name: mainssh globalssh 172.67.199.34
+  server: 172.67.199.34
+  port: 443
+  type: trojan
+  password: 'mainssh-kopsurat'
+  skip-cert-verify: true
+  sni: sgtws.mainssh.xyz
+  network: ws
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+- name: howdy hz globalssh 172.67.199.34
+  server: 172.67.199.34
+  port: 443
+  type: trojan
+  password: 'b197e250-d1db-11ed-819b-1239d0255272'
+  skip-cert-verify: true
+  sni: id-1.test3.net
+  network: ws
+  udp: true
+  ws-opts:
+    path: /howdy
+- name: mainssh sg2 172.67.199.34
+  server: 172.67.199.34
+  port: 443
+  type: trojan
+  password: 'mainssh-sin123er'
+  skip-cert-verify: true
+  sni: sg2tws.mainssh.xyz
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan
+- name: ctb 2 globalssh 172.67.199.34
+  server: 172.67.199.34
+  port: 443
+  udp: true
+  type: trojan
+  password: '123456'
+  skip-cert-verify: true
+  sni: trojan-ctb-sg02.globalssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-ws  
+- name: ctb 3 globalssh 172.67.199.34
+  server: 172.67.199.34
+  port: 443
+  udp: true
+  type: trojan
+  password: '8d32aea0-d1dc-11ed-b3a5-1239d0255272'
+  skip-cert-verify: true
+  sni: sg-2.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+- name: ikd prem 172.64.149.82
+  type: trojan
+  server: 172.64.149.82
+  port: 443
+  password: 'sin123er'
+  udp: true
+  sni: ikd-id03.iptr.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan-ws"
+
+- name: mainssh globalssh 172.64.149.82
+  server: 172.64.149.82
+  port: 443
+  type: trojan
+  password: 'mainssh-kopsurat'
+  skip-cert-verify: true
+  sni: sgtws.mainssh.xyz
+  network: ws
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+- name: howdy hz globalssh 172.64.149.82
+  server: 172.64.149.82
+  port: 443
+  type: trojan
+  password: 'b197e250-d1db-11ed-819b-1239d0255272'
+  skip-cert-verify: true
+  sni: id-1.test3.net
+  network: ws
+  udp: true
+  ws-opts:
+    path: /howdy
+- name: mainssh sg2 172.64.149.82
+  server: 172.64.149.82
+  port: 443
+  type: trojan
+  password: 'mainssh-sin123er'
+  skip-cert-verify: true
+  sni: sg2tws.mainssh.xyz
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan
+- name: ctb 2 globalssh 172.64.149.82
+  server: 172.64.149.82
+  port: 443
+  udp: true
+  type: trojan
+  password: '123456'
+  skip-cert-verify: true
+  sni: trojan-ctb-sg02.globalssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-ws  
+- name: ctb 3 globalssh 172.64.149.82
+  server: 172.64.149.82
+  port: 443
+  udp: true
+  type: trojan
+  password: '8d32aea0-d1dc-11ed-b3a5-1239d0255272'
+  skip-cert-verify: true
+  sni: sg-2.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+- name: ikd prem 104.16.51.111
+  type: trojan
+  server: 104.16.51.111
+  port: 443
+  password: 'sin123er'
+  udp: true
+  sni: ikd-id03.iptr.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan-ws"
+
+- name: mainssh globalssh 104.16.51.111
+  server: 104.16.51.111
+  port: 443
+  type: trojan
+  password: 'mainssh-kopsurat'
+  skip-cert-verify: true
+  sni: sgtws.mainssh.xyz
+  network: ws
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+- name: howdy hz globalssh 104.16.51.111
+  server: 104.16.51.111
+  port: 443
+  type: trojan
+  password: 'b197e250-d1db-11ed-819b-1239d0255272'
+  skip-cert-verify: true
+  sni: id-1.test3.net
+  network: ws
+  udp: true
+  ws-opts:
+    path: /howdy
+- name: mainssh sg2 104.16.51.111
+  server: 104.16.51.111
+  port: 443
+  type: trojan
+  password: 'mainssh-sin123er'
+  skip-cert-verify: true
+  sni: sg2tws.mainssh.xyz
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan
+- name: ctb 2 globalssh 104.16.51.111
+  server: 104.16.51.111
+  port: 443
+  udp: true
+  type: trojan
+  password: '123456'
+  skip-cert-verify: true
+  sni: trojan-ctb-sg02.globalssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-ws  
+- name: ctb 3 globalssh 104.16.51.111
+  server: 104.16.51.111
+  port: 443
+  udp: true
+  type: trojan
+  password: '8d32aea0-d1dc-11ed-b3a5-1239d0255272'
+  skip-cert-verify: true
+  sni: sg-2.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+- name: ikd prem 104.20.75.141
+  type: trojan
+  server: 104.20.75.141
+  port: 443
+  password: 'sin123er'
+  udp: true
+  sni: ikd-id03.iptr.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan-ws"
+
+- name: mainssh globalssh 104.20.75.141
+  server: 104.20.75.141
+  port: 443
+  type: trojan
+  password: 'mainssh-kopsurat'
+  skip-cert-verify: true
+  sni: sgtws.mainssh.xyz
+  network: ws
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+- name: howdy hz globalssh 104.20.75.141
+  server: 104.20.75.141
+  port: 443
+  type: trojan
+  password: 'b197e250-d1db-11ed-819b-1239d0255272'
+  skip-cert-verify: true
+  sni: id-1.test3.net
+  network: ws
+  udp: true
+  ws-opts:
+    path: /howdy
+- name: mainssh sg2 104.20.75.141
+  server: 104.20.75.141
+  port: 443
+  type: trojan
+  password: 'mainssh-sin123er'
+  skip-cert-verify: true
+  sni: sg2tws.mainssh.xyz
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan
+- name: ctb 2 globalssh 104.20.75.141
+  server: 104.20.75.141
+  port: 443
+  udp: true
+  type: trojan
+  password: '123456'
+  skip-cert-verify: true
+  sni: trojan-ctb-sg02.globalssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-ws  
+- name: ctb 3 globalssh 104.20.75.141
+  server: 104.20.75.141
+  port: 443
+  udp: true
+  type: trojan
+  password: '8d32aea0-d1dc-11ed-b3a5-1239d0255272'
+  skip-cert-verify: true
+  sni: sg-2.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+- name: ikd prem 104.26.4.10
+  type: trojan
+  server: 104.26.4.10
+  port: 443
+  password: 'sin123er'
+  udp: true
+  sni: ikd-id03.iptr.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan-ws"
+
+- name: mainssh globalssh 104.26.4.10
+  server: 104.26.4.10
+  port: 443
+  type: trojan
+  password: 'mainssh-kopsurat'
+  skip-cert-verify: true
+  sni: sgtws.mainssh.xyz
+  network: ws
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+- name: howdy hz globalssh 104.26.4.10
+  server: 104.26.4.10
+  port: 443
+  type: trojan
+  password: 'b197e250-d1db-11ed-819b-1239d0255272'
+  skip-cert-verify: true
+  sni: id-1.test3.net
+  network: ws
+  udp: true
+  ws-opts:
+    path: /howdy
+- name: mainssh sg2 104.26.4.10
+  server: 104.26.4.10
+  port: 443
+  type: trojan
+  password: 'mainssh-sin123er'
+  skip-cert-verify: true
+  sni: sg2tws.mainssh.xyz
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan
+- name: ctb 2 globalssh 104.26.4.10
+  server: 104.26.4.10
+  port: 443
+  udp: true
+  type: trojan
+  password: '123456'
+  skip-cert-verify: true
+  sni: trojan-ctb-sg02.globalssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-ws  
+- name: ctb 3 globalssh 104.26.4.10
+  server: 104.26.4.10
+  port: 443
+  udp: true
+  type: trojan
+  password: '8d32aea0-d1dc-11ed-b3a5-1239d0255272'
+  skip-cert-verify: true
+  sni: sg-2.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+- name: ikd prem 172.67.73.39
+  type: trojan
+  server: 172.67.73.39
+  port: 443
+  password: 'sin123er'
+  udp: true
+  sni: ikd-id03.iptr.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan-ws"
+
+- name: mainssh globalssh 172.67.73.39
+  server: 172.67.73.39
+  port: 443
+  type: trojan
+  password: 'mainssh-kopsurat'
+  skip-cert-verify: true
+  sni: sgtws.mainssh.xyz
+  network: ws
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+- name: howdy hz globalssh 172.67.73.39
+  server: 172.67.73.39
+  port: 443
+  type: trojan
+  password: 'b197e250-d1db-11ed-819b-1239d0255272'
+  skip-cert-verify: true
+  sni: id-1.test3.net
+  network: ws
+  udp: true
+  ws-opts:
+    path: /howdy
+- name: mainssh sg2 172.67.73.39
+  server: 172.67.73.39
+  port: 443
+  type: trojan
+  password: 'mainssh-sin123er'
+  skip-cert-verify: true
+  sni: sg2tws.mainssh.xyz
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan
+- name: ctb 2 globalssh 172.67.73.39
+  server: 172.67.73.39
+  port: 443
+  udp: true
+  type: trojan
+  password: '123456'
+  skip-cert-verify: true
+  sni: trojan-ctb-sg02.globalssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-ws  
+- name: ctb 3 globalssh 172.67.73.39
+  server: 172.67.73.39
+  port: 443
+  udp: true
+  type: trojan
+  password: '8d32aea0-d1dc-11ed-b3a5-1239d0255272'
+  skip-cert-verify: true
+  sni: sg-2.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+- name: ikd prem 172.64.148.55
+  type: trojan
+  server: 172.64.148.55
+  port: 443
+  password: 'sin123er'
+  udp: true
+  sni: ikd-id03.iptr.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan-ws"
+
+- name: mainssh globalssh 172.64.148.55
+  server: 172.64.148.55
+  port: 443
+  type: trojan
+  password: 'mainssh-kopsurat'
+  skip-cert-verify: true
+  sni: sgtws.mainssh.xyz
+  network: ws
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+- name: howdy hz globalssh 172.64.148.55
+  server: 172.64.148.55
+  port: 443
+  type: trojan
+  password: 'b197e250-d1db-11ed-819b-1239d0255272'
+  skip-cert-verify: true
+  sni: id-1.test3.net
+  network: ws
+  udp: true
+  ws-opts:
+    path: /howdy
+- name: mainssh sg2 172.64.148.55
+  server: 172.64.148.55
+  port: 443
+  type: trojan
+  password: 'mainssh-sin123er'
+  skip-cert-verify: true
+  sni: sg2tws.mainssh.xyz
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan
+- name: ctb 2 globalssh 172.64.148.55
+  server: 172.64.148.55
+  port: 443
+  udp: true
+  type: trojan
+  password: '123456'
+  skip-cert-verify: true
+  sni: trojan-ctb-sg02.globalssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-ws  
+- name: ctb 3 globalssh 172.64.148.55
+  server: 172.64.148.55
+  port: 443
+  udp: true
+  type: trojan
+  password: '8d32aea0-d1dc-11ed-b3a5-1239d0255272'
+  skip-cert-verify: true
+  sni: sg-2.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+- name: ikd prem 104.18.39.201
+  type: trojan
+  server: 104.18.39.201
+  port: 443
+  password: 'sin123er'
+  udp: true
+  sni: ikd-id03.iptr.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan-ws"
+
+- name: mainssh globalssh 104.18.39.201
+  server: 104.18.39.201
+  port: 443
+  type: trojan
+  password: 'mainssh-kopsurat'
+  skip-cert-verify: true
+  sni: sgtws.mainssh.xyz
+  network: ws
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+- name: howdy hz globalssh 104.18.39.201
+  server: 104.18.39.201
+  port: 443
+  type: trojan
+  password: 'b197e250-d1db-11ed-819b-1239d0255272'
+  skip-cert-verify: true
+  sni: id-1.test3.net
+  network: ws
+  udp: true
+  ws-opts:
+    path: /howdy
+- name: mainssh sg2 104.18.39.201
+  server: 104.18.39.201
+  port: 443
+  type: trojan
+  password: 'mainssh-sin123er'
+  skip-cert-verify: true
+  sni: sg2tws.mainssh.xyz
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan
+- name: ctb 2 globalssh 104.18.39.201
+  server: 104.18.39.201
+  port: 443
+  udp: true
+  type: trojan
+  password: '123456'
+  skip-cert-verify: true
+  sni: trojan-ctb-sg02.globalssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-ws  
+- name: ctb 3 globalssh 104.18.39.201
+  server: 104.18.39.201
+  port: 443
+  udp: true
+  type: trojan
+  password: '8d32aea0-d1dc-11ed-b3a5-1239d0255272'
+  skip-cert-verify: true
+  sni: sg-2.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+- name: ikd prem 104.17.71.206
+  type: trojan
+  server: 104.17.71.206
+  port: 443
+  password: 'sin123er'
+  udp: true
+  sni: ikd-id03.iptr.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan-ws"
+
+- name: mainssh globalssh 104.17.71.206
+  server: 104.17.71.206
+  port: 443
+  type: trojan
+  password: 'mainssh-kopsurat'
+  skip-cert-verify: true
+  sni: sgtws.mainssh.xyz
+  network: ws
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+- name: howdy hz globalssh 104.17.71.206
+  server: 104.17.71.206
+  port: 443
+  type: trojan
+  password: 'b197e250-d1db-11ed-819b-1239d0255272'
+  skip-cert-verify: true
+  sni: id-1.test3.net
+  network: ws
+  udp: true
+  ws-opts:
+    path: /howdy
+- name: mainssh sg2 104.17.71.206
+  server: 104.17.71.206
+  port: 443
+  type: trojan
+  password: 'mainssh-sin123er'
+  skip-cert-verify: true
+  sni: sg2tws.mainssh.xyz
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan
+- name: ctb 2 globalssh 104.17.71.206
+  server: 104.17.71.206
+  port: 443
+  udp: true
+  type: trojan
+  password: '123456'
+  skip-cert-verify: true
+  sni: trojan-ctb-sg02.globalssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-ws  
+- name: ctb 3 globalssh 104.17.71.206
+  server: 104.17.71.206
+  port: 443
+  udp: true
+  type: trojan
+  password: '8d32aea0-d1dc-11ed-b3a5-1239d0255272'
+  skip-cert-verify: true
+  sni: sg-2.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+- name: ikd prem 104.17.3.81
+  type: trojan
+  server: 104.17.3.81
+  port: 443
+  password: 'sin123er'
+  udp: true
+  sni: ikd-id03.iptr.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan-ws"
+
+- name: mainssh globalssh 104.17.3.81
+  server: 104.17.3.81
+  port: 443
+  type: trojan
+  password: 'mainssh-kopsurat'
+  skip-cert-verify: true
+  sni: sgtws.mainssh.xyz
+  network: ws
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+- name: howdy hz globalssh 104.17.3.81
+  server: 104.17.3.81
+  port: 443
+  type: trojan
+  password: 'b197e250-d1db-11ed-819b-1239d0255272'
+  skip-cert-verify: true
+  sni: id-1.test3.net
+  network: ws
+  udp: true
+  ws-opts:
+    path: /howdy
+- name: mainssh sg2 104.17.3.81
+  server: 104.17.3.81
+  port: 443
+  type: trojan
+  password: 'mainssh-sin123er'
+  skip-cert-verify: true
+  sni: sg2tws.mainssh.xyz
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan
+- name: ctb 2 globalssh 104.17.3.81
+  server: 104.17.3.81
+  port: 443
+  udp: true
+  type: trojan
+  password: '123456'
+  skip-cert-verify: true
+  sni: trojan-ctb-sg02.globalssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-ws  
+- name: ctb 3 globalssh 104.17.3.81
+  server: 104.17.3.81
+  port: 443
+  udp: true
+  type: trojan
+  password: '8d32aea0-d1dc-11ed-b3a5-1239d0255272'
+  skip-cert-verify: true
+  sni: sg-2.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+- name: ikd prem 141.193.213.21
+  type: trojan
+  server: 141.193.213.21
+  port: 443
+  password: 'sin123er'
+  udp: true
+  sni: ikd-id03.iptr.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan-ws"
+
+- name: mainssh globalssh 141.193.213.21
+  server: 141.193.213.21
+  port: 443
+  type: trojan
+  password: 'mainssh-kopsurat'
+  skip-cert-verify: true
+  sni: sgtws.mainssh.xyz
+  network: ws
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+- name: howdy hz globalssh 141.193.213.21
+  server: 141.193.213.21
+  port: 443
+  type: trojan
+  password: 'b197e250-d1db-11ed-819b-1239d0255272'
+  skip-cert-verify: true
+  sni: id-1.test3.net
+  network: ws
+  udp: true
+  ws-opts:
+    path: /howdy
+- name: mainssh sg2 141.193.213.21
+  server: 141.193.213.21
+  port: 443
+  type: trojan
+  password: 'mainssh-sin123er'
+  skip-cert-verify: true
+  sni: sg2tws.mainssh.xyz
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan
+- name: ctb 2 globalssh 141.193.213.21
+  server: 141.193.213.21
+  port: 443
+  udp: true
+  type: trojan
+  password: '123456'
+  skip-cert-verify: true
+  sni: trojan-ctb-sg02.globalssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-ws  
+- name: ctb 3 globalssh 141.193.213.21
+  server: 141.193.213.21
+  port: 443
+  udp: true
+  type: trojan
+  password: '8d32aea0-d1dc-11ed-b3a5-1239d0255272'
+  skip-cert-verify: true
+  sni: sg-2.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+- name: ikd prem 104.18.20.226
+  type: trojan
+  server: 104.18.20.226
+  port: 443
+  password: 'sin123er'
+  udp: true
+  sni: ikd-id03.iptr.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan-ws"
+
+- name: mainssh globalssh 104.18.20.226
+  server: 104.18.20.226
+  port: 443
+  type: trojan
+  password: 'mainssh-kopsurat'
+  skip-cert-verify: true
+  sni: sgtws.mainssh.xyz
+  network: ws
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+- name: howdy hz globalssh 104.18.20.226
+  server: 104.18.20.226
+  port: 443
+  type: trojan
+  password: 'b197e250-d1db-11ed-819b-1239d0255272'
+  skip-cert-verify: true
+  sni: id-1.test3.net
+  network: ws
+  udp: true
+  ws-opts:
+    path: /howdy
+- name: mainssh sg2 104.18.20.226
+  server: 104.18.20.226
+  port: 443
+  type: trojan
+  password: 'mainssh-sin123er'
+  skip-cert-verify: true
+  sni: sg2tws.mainssh.xyz
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan
+- name: ctb 2 globalssh 104.18.20.226
+  server: 104.18.20.226
+  port: 443
+  udp: true
+  type: trojan
+  password: '123456'
+  skip-cert-verify: true
+  sni: trojan-ctb-sg02.globalssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-ws  
+- name: ctb 3 globalssh 104.18.20.226
+  server: 104.18.20.226
+  port: 443
+  udp: true
+  type: trojan
+  password: '8d32aea0-d1dc-11ed-b3a5-1239d0255272'
+  skip-cert-verify: true
+  sni: sg-2.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+- name: ikd prem 104.17.70.206
+  type: trojan
+  server: 104.17.70.206
+  port: 443
+  password: 'sin123er'
+  udp: true
+  sni: ikd-id03.iptr.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan-ws"
+
+- name: mainssh globalssh 104.17.70.206
+  server: 104.17.70.206
+  port: 443
+  type: trojan
+  password: 'mainssh-kopsurat'
+  skip-cert-verify: true
+  sni: sgtws.mainssh.xyz
+  network: ws
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+- name: howdy hz globalssh 104.17.70.206
+  server: 104.17.70.206
+  port: 443
+  type: trojan
+  password: 'b197e250-d1db-11ed-819b-1239d0255272'
+  skip-cert-verify: true
+  sni: id-1.test3.net
+  network: ws
+  udp: true
+  ws-opts:
+    path: /howdy
+- name: mainssh sg2 104.17.70.206
+  server: 104.17.70.206
+  port: 443
+  type: trojan
+  password: 'mainssh-sin123er'
+  skip-cert-verify: true
+  sni: sg2tws.mainssh.xyz
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan
+- name: ctb 2 globalssh 104.17.70.206
+  server: 104.17.70.206
+  port: 443
+  udp: true
+  type: trojan
+  password: '123456'
+  skip-cert-verify: true
+  sni: trojan-ctb-sg02.globalssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-ws  
+- name: ctb 3 globalssh 104.17.70.206
+  server: 104.17.70.206
+  port: 443
+  udp: true
+  type: trojan
+  password: '8d32aea0-d1dc-11ed-b3a5-1239d0255272'
+  skip-cert-verify: true
+  sni: sg-2.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+- name: ikd prem 104.17.2.81
+  type: trojan
+  server: 104.17.2.81
+  port: 443
+  password: 'sin123er'
+  udp: true
+  sni: ikd-id03.iptr.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan-ws"
+
+- name: mainssh globalssh 104.17.2.81
+  server: 104.17.2.81
+  port: 443
+  type: trojan
+  password: 'mainssh-kopsurat'
+  skip-cert-verify: true
+  sni: sgtws.mainssh.xyz
+  network: ws
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+- name: howdy hz globalssh 104.17.2.81
+  server: 104.17.2.81
+  port: 443
+  type: trojan
+  password: 'b197e250-d1db-11ed-819b-1239d0255272'
+  skip-cert-verify: true
+  sni: id-1.test3.net
+  network: ws
+  udp: true
+  ws-opts:
+    path: /howdy
+- name: mainssh sg2 104.17.2.81
+  server: 104.17.2.81
+  port: 443
+  type: trojan
+  password: 'mainssh-sin123er'
+  skip-cert-verify: true
+  sni: sg2tws.mainssh.xyz
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan
+- name: ctb 2 globalssh 104.17.2.81
+  server: 104.17.2.81
+  port: 443
+  udp: true
+  type: trojan
+  password: '123456'
+  skip-cert-verify: true
+  sni: trojan-ctb-sg02.globalssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-ws  
+- name: ctb 3 globalssh 104.17.2.81
+  server: 104.17.2.81
+  port: 443
+  udp: true
+  type: trojan
+  password: '8d32aea0-d1dc-11ed-b3a5-1239d0255272'
+  skip-cert-verify: true
+  sni: sg-2.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+- name: ikd prem 104.18.1.196
+  type: trojan
+  server: 104.18.1.196
+  port: 443
+  password: 'sin123er'
+  udp: true
+  sni: ikd-id03.iptr.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan-ws"
+
+- name: mainssh globalssh 104.18.1.196
+  server: 104.18.1.196
+  port: 443
+  type: trojan
+  password: 'mainssh-kopsurat'
+  skip-cert-verify: true
+  sni: sgtws.mainssh.xyz
+  network: ws
+  udp: true
+  ws-opts:
+    path: /trojan-ws
+- name: howdy hz globalssh 104.18.1.196
+  server: 104.18.1.196
+  port: 443
+  type: trojan
+  password: 'b197e250-d1db-11ed-819b-1239d0255272'
+  skip-cert-verify: true
+  sni: id-1.test3.net
+  network: ws
+  udp: true
+  ws-opts:
+    path: /howdy
+- name: mainssh sg2 104.18.1.196
+  server: 104.18.1.196
+  port: 443
+  type: trojan
+  password: 'mainssh-sin123er'
+  skip-cert-verify: true
+  sni: sg2tws.mainssh.xyz
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojan
+- name: ctb 2 globalssh 104.18.1.196
+  server: 104.18.1.196
+  port: 443
+  udp: true
+  type: trojan
+  password: '123456'
+  skip-cert-verify: true
+  sni: trojan-ctb-sg02.globalssh.xyz
+  network: ws
+  ws-opts:
+    path: /trojan-ws  
+- name: ctb 3 globalssh 104.18.1.196
+  server: 104.18.1.196
+  port: 443
+  udp: true
+  type: trojan
+  password: '8d32aea0-d1dc-11ed-b3a5-1239d0255272'
+  skip-cert-verify: true
+  sni: sg-2.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Perbukitan Datar</title>
+	<style>
+		canvas {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			z-index: -1;
+		}
+	</style>
+</head>
+<body>
+	<canvas id="canvas"></canvas>
+	<script>
+		const canvas = document.getElementById('canvas');
+		const ctx = canvas.getContext('2d');
+		
+		canvas.width = window.innerWidth - 200;
+		canvas.height = 200;
+		
+		// set warna background perbukitan
+		ctx.fillStyle = "#5e5b5b";
+		ctx.fillRect(0, 0, canvas.width, canvas.height);
+		
+		// buat perbukitan datar
+		const hillWidth = 50;
+		const hillHeight = 30;
+		const numHills = canvas.width / hillWidth;
+		for(let i = 0; i < numHills; i++) {
+			ctx.beginPath();
+			ctx.moveTo(i * hillWidth, canvas.height);
+			ctx.lineTo((i + 0.5) * hillWidth, canvas.height - hillHeight);
+			ctx.lineTo((i + 1) * hillWidth, canvas.height);
+			ctx.closePath();
+			ctx.fillStyle = "#3d3b3b";
+			ctx.fill();
+		}
+	</script>
+</body>
+</html>
