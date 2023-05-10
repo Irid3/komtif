@@ -31,29 +31,7 @@ function draw() {
 	   }
 	})
 }
-function mountains(oy, epsilon, startColor, endColor, reductionScaler) {
-	for (let y = oy; y < height; y += 1) {
-	  const row = [];
-	  row.push(createVector(0, y));
-	  for (let x = 0; x < width; x += 1) {
-		const n = noise(x * epsilon, y * epsilon);
-		const reduction = map(y, 0, height, 1, 0) * reductionScaler;
-		const off = y + map(n, 0, 1, -reduction, reduction);
-		row.push(createVector(x, off));
-	  }
-	  row.push(createVector(width, height));
-	  row.push(createVector(0, height));
-	  const ammount = map(y, oy, height, 0, 1);
-	  const c = lerpColor(color(startColor), color(endColor), ammount);
-	  fill(c);
-  
-	  beginShape();
-	  for (let v of row) {
-		vertex(v.x, v.y);
-	  }
-	  endShape(CLOSE);
-	}
-  }
+
 function Star(x, y) {
 	this.x = round(random(0, window.innerWidth));
 	this.y = -10;
@@ -74,7 +52,6 @@ function Star(x, y) {
 		this.drawTail();
 	}
 	
-	//record history of star to use for tail
 	this.history = function() {
 		if(this.tail.length > this.tailLength) {
 			this.tail.shift();
@@ -88,13 +65,11 @@ function Star(x, y) {
 						.mode("lch")
             .colors(this.tail.length);
 
-		//draw each circle for the tail
 		for(i = this.tail.length - 1; i > 0; i--){
 			circle(this.tail[i].x, this.tail[i].y, this.tail[i].r);
 			fill(colorScale[i]);
 			noStroke();
 			
-			//calculate the proper numer to reduce radius to 0
 			const radiusReducer = this.tail[i].r / this.tailLength;
 			this.tail[i].r -= radiusReducer;
 		}
